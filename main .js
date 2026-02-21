@@ -1,4 +1,4 @@
-var users = ([ " welcome " + " to " + " javascript " + " programming "])
-var userinput = prompt(" enter your name ")
-users.push(userinput)
-alert(users)
+var pets = ["dog", "cat", "rabbit", "hamster", "parrot"];
+pets.pop();
+pets.push("birds", "fish");
+alert(pets);
